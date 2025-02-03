@@ -6,7 +6,7 @@ import waitPort from "wait-port";
 
 const __filename = fileURLToPath(import.meta.url); // get the resolved path to the file
 const __dirname = path.dirname(__filename); // get the name of the directory
-const baseURL = `http://localhost:3000/aalaya/`;
+const baseURL = `http://localhost:3000/aalaya`;
 const outputPath = `build/client`;
 
 function saveFile(fileName) {
