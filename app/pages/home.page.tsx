@@ -23,7 +23,7 @@ export default function HomePage() {
       <section className="p-32 relative">
         <div className="container max-2xl mx-auto">
           <div className="flex">
-              <div className="w-[40%] bg-[url('./assets/construction_engineer.webp')] bg-cover bg-no-repeat bg-center intersect:motion-translate-y-in-100 intersect:motion-duration-[2s] intersect:motion-ease-spring-smooth intersect-once"></div>
+              <div className="w-[40%] bg-[url('/assets/construction_engineer.webp')] bg-cover bg-no-repeat bg-center intersect:motion-translate-y-in-100 intersect:motion-duration-[2s] intersect:motion-ease-spring-smooth intersect-once"></div>
               <div className="w-[60%] px-10 intersect:motion-translate-y-in-100 intersect:motion-duration-[2s] intersect:motion-ease-spring-smooth intersect-once">
                 <h2 className="text-gray-darker font-medium text-6xl leading-[84px] mb-3">High Quality and Affordable Constructor</h2>
 

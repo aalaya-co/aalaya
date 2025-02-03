@@ -1,6 +1,6 @@
 export default function HeroBanner() {
   return (
-    <section className="bg-gray-dark bg-[url('./assets/aalaya_hero_banner.webp')] bg-cover bg-no-repeat bg-center bg-fixed relative z-0 before:absolute before:top-0 before:bottom-0 before:right-0 before:left-0 before:bg-gray before:opacity-[0.5] before:z-[-1]">
+    <section className="bg-gray-dark bg-[url('/assets/aalaya_hero_banner.webp')] bg-cover bg-no-repeat bg-center bg-fixed relative z-0 before:absolute before:top-0 before:bottom-0 before:right-0 before:left-0 before:bg-gray before:opacity-[0.5] before:z-[-1]">
       <div className="container max-2xl mx-auto">
         <div className="flex flex-wrap items-center justify-center min-h-[750px]">
           <div className="w-[65%] flex-[0_0_auto]">
