@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply font-sans antialiased;
+  @apply bg-white-50;
+  @apply scroll-smooth;
+
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+}
+
+nav ul li a {
+  @apply block;
+  @apply px-5;
+  @apply text-white;
+  @apply h-full;
+  @apply flex;
+  @apply relative;
+  @apply z-0;
+}
+
+nav ul li a:hover:before, nav ul li a.active:before {
+  @apply content-[''];
+  @apply absolute;
+  @apply top-0;
+  @apply bottom-0;
+  @apply right-0;
+  @apply left-0;
+  @apply bg-yellow;
+  @apply z-[-1];
+  @apply transform;
+  @apply skew-x-[20deg];
+}
+
+nav ul li a.active:before { @apply bg-yellow-darker }
+
+nav ul li a span {
+  @apply self-center;
+}
